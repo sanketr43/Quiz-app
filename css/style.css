@@ -1,0 +1,133 @@
+/*global style start*/
+:root{
+    --primary-color: #3c80b4;
+    --secondary-color: #7C3AED;
+}
+
+body{
+    margin: 0;
+    background: #0E131F;
+}
+
+.bui-navbar{
+    background: #0E131F;
+    color: red;
+}
+
+.bui-navbar-logo{
+    font-weight: 900;
+}
+
+.bui-container{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width: 576px){
+    .bui-container{
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 576px){
+    .bui-container{
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px){
+    .bui-container{
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px){
+    .bui-container{
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px){
+    .bui-container{
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1400px){
+    .bui-container{
+        max-width: 1320px;
+    }
+}
+
+.bui-btn-block{
+    width: 100%;
+}
+/*global style end*/
+
+/*featured quiz by category start*/
+.bui-category{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.bui-category-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bui-category-title p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bui-category-title a{
+    text-decoration: none;
+    color: red;
+    border: solid 1px red;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.bui-category-title a:hover{
+    background: red;
+    color: white;
+}
+
+.bui-category .bui-category-items{
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.bui-quiz-card{
+    max-width: 250px;
+    background: #19212C;
+    color: white;
+    border-radius: 15px;
+    flex-shrink: 0;
+}
+
+.bui-quiz-card .bui-card-img-top{
+    border-radius: 15px;
+}
+
+.bui-quiz-card p{
+    color: #78867E;
+}
+
+.bui-category .bui-category-items::-webkit-scrollbar {
+    height: 5px;
+}
+  
+.bui-category .bui-category-items::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+.bui-category .bui-category-items::-webkit-scrollbar-thumb {
+    background: rgba(128, 128, 128, 0.5);
+    border-radius: 10px;
+}
+/*featured quiz by category end*/
