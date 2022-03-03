@@ -99,10 +99,11 @@ body{
     display: flex;
     gap: 20px;
     overflow-x: auto;
+    padding-bottom: 10px;
 }
 
 .bui-quiz-card{
-    max-width: 250px;
+    max-width: 248px;
     background: #19212C;
     color: white;
     border-radius: 15px;
