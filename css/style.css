@@ -62,6 +62,32 @@ body{
 .bui-btn-block{
     width: 100%;
 }
+
+.bui-quiz-card{
+    max-width: 248px;
+    background: #19212C;
+    color: white;
+    border-radius: 15px;
+    flex-shrink: 0;
+    cursor: pointer;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.bui-quiz-card:hover{
+    -webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+}
+
+.bui-quiz-card .bui-card-img-top{
+    border-radius: 15px;
+}
+
+.bui-quiz-card p{
+    color: #78867E;
+}
 /*global style end*/
 
 /*featured quiz by category start*/
@@ -80,6 +106,7 @@ body{
 .bui-category-title p{
     font-size: 18px;
     font-weight: bold;
+    margin: 0;
 }
 
 .bui-category-title a{
@@ -99,23 +126,9 @@ body{
     display: flex;
     gap: 20px;
     overflow-x: auto;
-    padding-bottom: 10px;
-}
-
-.bui-quiz-card{
-    max-width: 248px;
-    background: #19212C;
-    color: white;
-    border-radius: 15px;
-    flex-shrink: 0;
-}
-
-.bui-quiz-card .bui-card-img-top{
-    border-radius: 15px;
-}
-
-.bui-quiz-card p{
-    color: #78867E;
+    overflow-y: hidden;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .bui-category .bui-category-items::-webkit-scrollbar {
@@ -132,3 +145,55 @@ body{
     border-radius: 10px;
 }
 /*featured quiz by category end*/
+
+/*cateogry page start*/
+.bui-category-container{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.bui-category-container-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bui-category-container-title p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bui-category-container-title a{
+    text-decoration: none;
+    color: red;
+    border: solid 1px red;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.bui-category-container-title a:hover{
+    background: red;
+    color: white;
+}
+
+.bui-category-container .bui-category-container-items{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 600px) {
+.bui-category-container-title{
+    justify-content: center;
+}
+
+.bui-category-container .bui-category-container-items{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+}
+
+/*category page end*/
