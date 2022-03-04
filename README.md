@@ -8,10 +8,9 @@ This is the under development react based project.
 You can find the QUIZ UI Static page development preview below.
 
 - [Landing Page](https://quizz-ui.netlify.app/index.html)
-- [Products Listing Page]
+- [Quizzes by Category](https://quizz-ui.netlify.app/category.html)
 - [Rules Page]
 - [MCQ Quiz Question Page]
-- [Login Page]
 - [Result Page]
 
 ## Tech
