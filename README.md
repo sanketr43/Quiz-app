@@ -1,4 +1,4 @@
-# QUIZZ app
+# QUIZ app
 ### An Quiz app based on ReactJs
 
 This is the under development react based project.
