@@ -5,7 +5,7 @@ This is the under development react based project.
 
 ## QUIZ UI 
 
-You can find the QUIZ UI Static page development preview below.
+You can find the QUIZ UI Static page development preview below. ([Branch](https://github.com/sanketr43/quiz-app/tree/quiz-ui))
 
 - [Landing Page](https://quizz-ui.netlify.app/index.html)
 - [Quizzes by Category](https://quizz-ui.netlify.app/category.html)
