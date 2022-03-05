@@ -88,6 +88,10 @@ body{
 .bui-quiz-card p{
     color: #78867E;
 }
+
+.bui-text-red{
+    color: red;
+}
 /*global style end*/
 
 /*featured quiz by category start*/
@@ -202,3 +206,61 @@ body{
 /*rules page start*/
 
 /*rules page end*/
+
+
+/*Quiz start*/
+.bui-quiz{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.bui-quiz-header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: gray;
+}
+
+.bui-quiz-question{
+    margin-bottom: 20px;
+}
+
+.bui-quiz-question p{
+    font-size: 18px;
+}
+
+.bui-quiz-options{
+    margin-bottom: 20px;
+}
+
+.bui-quiz-options .bui-quiz-option-item{
+    background: #19212C;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.bui-quiz-options .bui-quiz-option-item:hover{
+    transform: scale(1.01);
+}
+
+.bui-quiz-options .bui-quiz-option-item.correct{
+    background: #007953;
+}
+
+.bui-quiz-options .bui-quiz-option-item.wrong{
+    background: #AF1616;
+}
+
+.bui-quiz-buttons{
+    text-align: center;
+}
+/*Quiz end*/
