@@ -9,9 +9,9 @@ You can find the QUIZ UI Static page development preview below.
 
 - [Landing Page](https://quizz-ui.netlify.app/index.html)
 - [Quizzes by Category](https://quizz-ui.netlify.app/category.html)
-- [Rules Page]
-- [MCQ Quiz Question Page]
-- [Result Page]
+- [Rules Page](https://quizz-ui.netlify.app/rules.html)
+- [MCQ Quiz Question Page](https://quizz-ui.netlify.app/quiz.html)
+- [Result Page](https://quizz-ui.netlify.app/result.html)
 
 ## Tech
 
